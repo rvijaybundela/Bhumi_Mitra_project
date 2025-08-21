@@ -1,0 +1,34 @@
+name: bhumi_mitra
+description: Land Survey and Measurement App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.12.3
+  google_maps_flutter_web: ^0.5.12+2
+  geolocator: ^14.0.2
+  proj4dart: ^2.1.0
+  collection: ^1.18.0
+  share_plus: ^7.2.2
+  pdf: ^3.10.7
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/data/panvel_villages.geojson
+    

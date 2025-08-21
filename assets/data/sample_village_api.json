@@ -1,0 +1,127 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample village data",
+  "description": "Sample village survey data for API demonstration",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::32643"
+    }
+  },
+  "xy_coordinate_resolution": 1e-06,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CCODE": "240002000202829100",
+        "PIN": "21",
+        "DTNCODE": "491",
+        "THNCODE": "4173",
+        "VINCODE": "553406",
+        "VIL_NAME": "Bonshet",
+        "DTName": "Raigad",
+        "THName": "Panvel",
+        "CNCODE11": "553406",
+        "CNCODE01": "02829500",
+        "LGD_CODE": "553406",
+        "EF_CODE": "272400020282950000"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [305785.5718, 2102128.1607, 0.0],
+              [305794.7487, 2102109.6501, 0.0],
+              [305803.8913, 2102089.6857, 0.0],
+              [305812.8568, 2102060.4962, 0.0],
+              [305813.7357, 2102057.6346, 0.0],
+              [305785.5718, 2102128.1607, 0.0]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "CCODE": "240002000202829100",
+        "PIN": "22",
+        "DTNCODE": "491",
+        "THNCODE": "4173", 
+        "VINCODE": "553407",
+        "VIL_NAME": "Kharghar",
+        "DTName": "Raigad",
+        "THName": "Panvel",
+        "CNCODE11": "553407",
+        "CNCODE01": "02829600",
+        "LGD_CODE": "553407",
+        "EF_CODE": "272400020282960000"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [305887.0965, 2102039.0183, 0.0],
+              [305886.91, 2102008.4403, 0.0],
+              [305859.5262, 2102000.3203, 0.0],
+              [305829.4329, 2101996.6654, 0.0],
+              [305887.0965, 2102039.0183, 0.0]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CCODE": "240002000202829100", 
+        "PIN": "23",
+        "DTNCODE": "491",
+        "THNCODE": "4173",
+        "VINCODE": "553408",
+        "VIL_NAME": "Kalamboli",
+        "DTName": "Raigad", 
+        "THName": "Panvel",
+        "CNCODE11": "553408",
+        "CNCODE01": "02829700",
+        "LGD_CODE": "553408",
+        "EF_CODE": "272400020282970000"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [305964.0505, 2102040.3395, 0.0],
+              [305964.0524, 2102040.2004, 0.0],
+              [305964.6426, 2101997.584, 0.0],
+              [305940.1036, 2101989.2112, 0.0],
+              [305964.0505, 2102040.3395, 0.0]
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "api_info": {
+    "format": "GeoJSON",
+    "coordinate_system": "UTM Zone 43N (EPSG:32643)",
+    "converted_to": "WGS84 (Lat/Lng)",
+    "village_count": 401,
+    "coverage_area": "Panvel Taluka, Raigad District, Maharashtra"
+  },
+  "field_definitions": {
+    "CCODE": "Census Code",
+    "PIN": "Plot Identification Number", 
+    "DTNCODE": "District Code",
+    "THNCODE": "Tehsil/Taluka Code",
+    "VINCODE": "Village Code",
+    "VIL_NAME": "Village Name",
+    "DTName": "District Name",
+    "THName": "Tehsil/Taluka Name", 
+    "LGD_CODE": "Local Government Directory Code",
+    "EF_CODE": "Extended Feature Code"
+  }
+}

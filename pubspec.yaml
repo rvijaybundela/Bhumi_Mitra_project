@@ -20,6 +20,21 @@ dependencies:
   share_plus: ^7.2.2
   pdf: ^3.10.7
   path_provider: ^2.1.2
+  # New dependencies for enhanced features
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  http: ^1.1.0
+  printing: ^5.11.0
+  permission_handler: ^11.0.1
+  image: ^4.1.3
+  qr_flutter: ^4.1.0
+  flutter_cache_manager: ^3.3.1
+  sqflite: ^2.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.0
+  flutter_typeahead: ^5.0.1
 
 dev_dependencies:
   flutter_test:
@@ -31,4 +46,4 @@ flutter:
   assets:
     - assets/images/
     - assets/data/panvel_villages.geojson
-    
+    - assets/data/village.json

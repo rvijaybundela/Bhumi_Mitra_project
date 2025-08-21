@@ -32,11 +32,15 @@
   <title>bhumi_mitra_app</title>
   <link rel="manifest" href="manifest.json">
   
-  <!-- Google Maps JavaScript API -->
-  <!-- API key configured for Bhumi Mitra App -->
-  <!-- Enable: Maps JavaScript API, Places API, Geocoding API in Google Cloud Console -->
-  <!-- Configure HTTP referrers: Add your domain (localhost:* for development) -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdYdP_PMn4O1m-y2rEzSXpZsoyZFyTCEw&libraries=geometry,places"></script>
+  <!-- Google Maps JavaScript API with callback and async loading -->
+  <script>
+    function initMap() {
+      console.log('Google Maps API loaded successfully');
+    }
+  </script>
+  <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdYdP_PMn4O1m-y2rEzSXpZsoyZFyTCEw&libraries=geometry,places&callback=initMap">
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>

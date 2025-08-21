@@ -5,7 +5,9 @@ import 'screens/language_selection_screen.dart';
 import 'screens/signup_screen.dart';
 import 'screens/bhumi_mitra_screen.dart';
 import 'screens/survey_info_screen.dart';
-import 'features/map/map_screen.dart';
+import 'features/map/comprehensive_map_screen.dart';
+import 'features/map/survey_numbers_screen.dart';
+import 'features/map/village_survey_map_screen.dart';
 
 void main() {
   runApp(const BhumiMitraApp());
@@ -62,7 +64,9 @@ class BhumiMitraApp extends StatelessWidget {
         '/signup': (_) => const SignupScreen(),
         '/bhumi_mitra': (_) => const BhumiMitraScreen(),
         '/survey_info': (_) => const SurveyInfoScreen(),
-        '/village_map': (context) => const MapScreen(),
+        '/survey_numbers': (context) => const SurveyNumbersScreen(),
+        '/village_survey_map': (context) => const VillageSurveyMapScreen(),
+        '/comprehensive_map': (context) => const ComprehensiveMapScreen(),
       },
       debugShowCheckedModeBanner: false,
     );

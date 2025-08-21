@@ -113,7 +113,7 @@ class BhumiMitraScreen extends StatelessWidget {
                                   width: double.infinity,
                                   height: buttonHeight,
                                   child: ElevatedButton(
-                                    onPressed: () => Navigator.pushNamed(context, '/survey_info'),
+                                    onPressed: () => Navigator.pushNamed(context, '/survey_numbers'),
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: kBrown,
                                       foregroundColor: Colors.white,
@@ -127,7 +127,7 @@ class BhumiMitraScreen extends StatelessWidget {
                                         fontWeight: FontWeight.w800,
                                       ),
                                     ),
-                                    child: const Text('Survey No.'),
+                                    child: const Text('Survey Numbers'),
                                   ),
                                 ),
 
@@ -135,7 +135,7 @@ class BhumiMitraScreen extends StatelessWidget {
 
                                 // Keep your existing subtitle text below the button
                                 Text(
-                                  'SURVEY NO. LOOKUP',
+                                  'LIST ALL SURVEY NUMBERS',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: kSubtitle,
@@ -153,7 +153,7 @@ class BhumiMitraScreen extends StatelessWidget {
                                   height: buttonHeight,
                                   child: ElevatedButton(
                                     onPressed: () {
-                                      Navigator.pushNamed(context, '/village_map');
+                                      Navigator.pushNamed(context, '/village_survey_map');
                                     },
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: kBrown,
@@ -193,7 +193,7 @@ class BhumiMitraScreen extends StatelessWidget {
                                   height: buttonHeight,
                                   child: ElevatedButton(
                                     onPressed: () {
-                                      Navigator.pushNamed(context, '/village_map');
+                                      Navigator.pushNamed(context, '/comprehensive_map');
                                     },
                                     style: ElevatedButton.styleFrom(
                                       backgroundColor: kBrown,
@@ -230,7 +230,7 @@ class BhumiMitraScreen extends StatelessWidget {
                                 SizedBox(height: isWeb ? 15 : 10),
 
                                 Text(
-                                  'GOOGLE MAPS INTEGRATION',
+                                  'LOCATION DETECTION & BOUNDARIES',
                                   textAlign: TextAlign.center,
                                   style: TextStyle(
                                     color: kSubtitle,

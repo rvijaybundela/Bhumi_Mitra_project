@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "VIL_NAME": "Sample Village 1",
+        "PIN": "101",
+        "DTName": "Sample District",
+        "TalukaName": "Sample Taluka",
+        "HobliName": "Sample Hobli",
+        "survey_no": "101",
+        "area": "2.5 acres",
+        "owner": "John Doe",
+        "revenue_division": "North",
+        "classification": "Agricultural"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.1234, 19.1234],
+            [73.1244, 19.1234],
+            [73.1244, 19.1244],
+            [73.1234, 19.1244],
+            [73.1234, 19.1234]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "VIL_NAME": "Sample Village 2",
+        "PIN": "102",
+        "DTName": "Sample District",
+        "TalukaName": "Sample Taluka",
+        "HobliName": "Sample Hobli",
+        "survey_no": "102",
+        "area": "1.8 acres",
+        "owner": "Jane Smith",
+        "revenue_division": "South",
+        "classification": "Residential"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.1254, 19.1254],
+            [73.1264, 19.1254],
+            [73.1264, 19.1264],
+            [73.1254, 19.1264],
+            [73.1254, 19.1254]
+          ]
+        ]
+      }
+    }
+  ]
+}

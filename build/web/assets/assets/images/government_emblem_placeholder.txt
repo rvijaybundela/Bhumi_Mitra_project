@@ -1,0 +1,4 @@
+<!-- This is a placeholder for the government emblem -->
+<!-- In a real app, you would place the actual government emblem PNG file here -->
+<!-- File: government_emblem.png -->
+<!-- This file should contain the official Government of Maharashtra emblem -->
